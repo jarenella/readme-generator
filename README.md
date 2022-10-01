@@ -1,6 +1,6 @@
-# name
+# a
 
-desky
+b
 
 # Table of Contents
 
@@ -16,22 +16,28 @@ desky
 
 # Installation
 
-install
+c
 
 # Usage Information
 
-do this
+d
 
 # Contribution guidelines
 
-dont contributge
+e
 
 # Test instructions
 
-idk just do it
+f
 
 # License
 
-[MIT] https://choosealicense.com/licenses/mit/
+[MIT] https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT
+
+# Questions?
+
+- GitHub: g
+
+- Email: jamesa122333@gmail.com
 
 

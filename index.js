@@ -38,7 +38,17 @@ const questions = [
         type: "list",
         name: "license",
         message: "License type:",
-        choices: ["MIT License", "The Unlicense", "GPL License"]
+        choices: ["MIT License", "Apache 2.0 License", "Boost Software License 1.0", "No License"]
+    },
+    {
+        type: "input",
+        name: "githubName",
+        message: "What is your GitHub username?"
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "What is your email?"
     }
 ];
 

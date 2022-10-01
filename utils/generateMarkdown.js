@@ -7,7 +7,16 @@ function renderLicenseBadge(license) {}
 let licenseLink = "";
 function renderLicenseLink(license) {
   if (license == "MIT License") {
-    licenseLink = "[MIT] https://choosealicense.com/licenses/mit/"
+    licenseLink = "[MIT] https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT"
+  }
+  else if (license == "Apache 2.0 License") {
+    licenseLink = "[Apache 2.0] https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0"
+  }
+  else if (license == "Boost Software License 1.0") {
+    licenseLink = "[Boost Software 1.0] https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt"
+  }
+  else if (license == "No License") {
+    licenseLink = "";
   }
 }
 
@@ -54,6 +63,12 @@ ${data.testInstructions}
 # License
 
 ${licenseLink}
+
+# Questions?
+
+- GitHub: ${data.githubName}
+
+- Email: ${data.email}
 
 
 `;
