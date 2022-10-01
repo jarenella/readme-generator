@@ -6,10 +6,10 @@ function renderLicenseBadge(license) {
     licenseBadge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
   }
   else if (license == "Apache 2.0 License") {
-    licenseBadge = ""
+    licenseBadge = "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
   }
   else if (license == "Boost Software License 1.0") {
-    licenseBadge = ""
+    licenseBadge = "[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)"
   }
   else if (license == "No License") {
     licenseBadge = "";
@@ -47,9 +47,13 @@ function generateMarkdown(data) {
 
 ${licenseBadge}
 
+# Description
+
 ${data.description}
 
 # Table of Contents
+
+- [Description](#Description)
 
 - [Installation](#Installation)
 

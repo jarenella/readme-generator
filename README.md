@@ -1,10 +1,14 @@
-# test2
+# Project Title
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-test
+# Description
+
+This is a bit about the project
 
 # Table of Contents
+
+- [Description](#Description)
 
 - [Installation](#Installation)
 
@@ -18,19 +22,19 @@ test
 
 # Installation
 
-test
+How to install
 
 # Usage Information
 
-test
+How to use
 
 # Contribution guidelines
 
-test
+How to contribute
 
 # Test instructions
 
-test
+Instructions for testing
 
 # License
 
@@ -38,8 +42,8 @@ test
 
 # Questions?
 
-- GitHub: test
+- GitHub: jarenella
 
-- Email: test
+- Email: example@example.com
 
 
