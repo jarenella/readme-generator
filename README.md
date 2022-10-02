@@ -34,11 +34,14 @@ Contributions are all welcome
 
 # Examples
 
-![A command line showing this project's prompts all answered by the user](./imgs/screenshot1.png)
+- Prompts being answered
+- ![A command line showing this project's prompts all answered by the user](./imgs/screenshot1.png)
 
-![A readme file generated from this project that matches the previously shown command line and prompt answers](./imgs/screenshot2.png)
+- A readme file generated with said prompt answers filled in
+- ![A readme file generated from this project that matches the previously shown command line and prompt answers](./imgs/screenshot2.png)
 
-![A GitHub readme matching the previously shown command line prompt answers generated through this project](./imgs/screenshot3.png)
+- This same readme file as it appears on GitHub
+- ![A GitHub readme matching the previously shown command line prompt answers generated through this project](./imgs/screenshot3.png)
 
 # License
     
