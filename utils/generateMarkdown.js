@@ -1,5 +1,5 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+//Creates a function that returns a license badge based on which license is passed in
+//If there is no license, returns an empty string
 let licenseBadge ="";
 function renderLicenseBadge(license) {
   if (license == "MIT License") {
@@ -16,8 +16,8 @@ function renderLicenseBadge(license) {
   }
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+//Creates a function that decides on the proper license link and assigns it to the link variable
+//If there is no license, it assigns an empty string
 let licenseLink = "";
 function renderLicenseLink(license) {
   if (license == "MIT License") {
@@ -36,11 +36,25 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+let licenseSection = "";
+function renderLicenseSection(license) {
+  if (license != "No License") {
+    renderLicenseLink(license);
+    licenseSection = `
+# License
+    
+- ${licenseLink}
+
+`;
+  }
+  else {
+    licenseSection = "";
+  }
+}
 
 // Function that generates markdown for README vvv
 function generateMarkdown(data) {
-  renderLicenseLink(data.license);
+  renderLicenseSection(data.license);
   renderLicenseBadge(data.license);
 
   return `# ${data.title}
@@ -80,11 +94,7 @@ ${data.contribution}
 # Test instructions
 
 ${data.testInstructions}
-
-# License
-
-- ${licenseLink}
-
+${licenseSection}
 # Questions?
 
 - GitHub: ${data.githubName}
@@ -96,4 +106,5 @@ ${data.testInstructions}
 }
 //function that generates markdown for README ^^^
 
+//Exports the generateMarkdown function to be used in index.js
 module.exports = generateMarkdown;

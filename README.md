@@ -1,10 +1,10 @@
-# Project Title
+# Readme Generator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Description
 
-This is a bit about the project
+This project allows you to generate a readme through prompts in your terminal
 
 # Table of Contents
 
@@ -22,28 +22,29 @@ This is a bit about the project
 
 # Installation
 
-How to install
+To install, clone the repository, and make sure to install all related dependancies
 
 # Usage Information
 
-How to use
+To use, simply open the folder in an integrated terminal, and run 'node index'
 
 # Contribution guidelines
 
-How to contribute
+Contributions are all welcome
 
 # Test instructions
 
-Instructions for testing
+N/A
 
 # License
-
+    
 - [MIT] https://www.mit.edu/~amini/LICENSE.md
+
 
 # Questions?
 
 - GitHub: jarenella
 
-- Email: example@example.com
+- Email: jamesa122333@gmail.com
 
 
