@@ -43,6 +43,8 @@ Contributions are all welcome
 - This same readme file as it appears on GitHub
 - ![A GitHub readme matching the previously shown command line prompt answers generated through this project](./imgs/screenshot3.png)
 
+- A short video example: https://drive.google.com/file/d/1N4vEd0Wrj-gMbzKkk9kQETvvLrTJdubi/view
+
 # License
     
 - [MIT] https://www.mit.edu/~amini/LICENSE.md
