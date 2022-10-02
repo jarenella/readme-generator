@@ -16,7 +16,7 @@ This project allows you to generate a readme through prompts in your terminal
 
 - [Contribution guidelines](#Contribution-guidelines)
 
-- [Test instructions](#Test-instructions)
+- [Examples](#Examples)
 
 - [License](#License)
 
@@ -32,9 +32,13 @@ To use, simply open the folder in an integrated terminal, and run 'node index'
 
 Contributions are all welcome
 
-# Test instructions
+# Examples
 
-N/A
+![A command line showing this project's prompts all answered by the user](./imgs/screenshot1.png)
+
+![A readme file generated from this project that matches the previously shown command line and prompt answers](./imgs/screenshot2.png)
+
+![A GitHub readme matching the previously shown command line prompt answers generated through this project](./imgs/screenshot3.png)
 
 # License
     
